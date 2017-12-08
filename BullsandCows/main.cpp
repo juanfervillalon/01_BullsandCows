@@ -61,7 +61,7 @@ void PlayGame()
 void PrintIntro() {
 
 	//constexpr int32 WORLD_LENGTH = 5;
-	std::cout << "\n\n Welcome to Bulls and Cows" << std::endl;
+	std::cout << "\n\n Welcome to Bulls and Cows v1.1" << std::endl;
    	std::cout << "Can you guess the " << BCGame.GetHiddenWordLength();
 	std::cout << " letter isogram I am thinking of?\n";
 }
